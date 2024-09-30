@@ -1,112 +1,69 @@
-body{
-    background-image: url(./img/img.1.webp);
-    width:100vw;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-   
-   
-}
-
-.tudo{
+body {
+    width: 60%;
+    height:110vh;
+    padding: 15%;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.retangulo{
-    margin-top: 50px;
-    display:flex;
-    background-color: rgb(0, 0, 0);
-    color: rgb(250, 247, 243);
-    align-items: center;
-    height: auto;
-    font-size: medium;
-    justify-content: center;
-    flex-direction: column;
-    width: 70vw;
-    border-radius: 50px;
-    
-
-
-
-}
-
-img{
-    width: 500px;
-    
-
-}
-
-p{
-    margin: 1vw;
-}
-
-
-/* ========================menu==================== */
-
-
-*{
-    margin: 0;
-}
-
-
-
-
-
-.menu{
-    
-    display: flex;
-    list-style: none;
-    background-color: rgb(2, 2, 2);
-    justify-content: center;
-    
-
-}
-
-.menu li{
-    position: relative;
-
-}
-
-.menu li a{
-    display: block;
-    color: rgb(248, 248, 248);
-    text-decoration: none;
-    padding: 25px;
-    width: 10vw;
-    font-size: 15px;
+    background-color: #000000;
+    font-size: 3vh;
     text-align: center;
+    display: flex;
+    color: aliceblue;
+   
+    
   
+
+}
+
+.circle-container{
+    width: 55%;
+    height: 70dvw;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    padding: 20%;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+    
+   
+    
     
 }
-
-li a:hover{
-    background-color: rgb(233, 15, 15);
-}
-
-/* submenu */
-
-.submenu{
-    list-style: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    margin:0;
-    padding: 0;
-    background-color: black;
-    display: none;   
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    color: rgb(243, 241, 239);
+    font-weight: bold;
+    text-align: center;
+   
     
-}
-
-
-.submenu li a{
-    padding: 10px 30px;
-}
-
-
-.menu li:hover .submenu{
-    display: block;
     
+   
+    
+
+
 }
+
+img {
+    width: 50vh;
+    height: 25vw;
+    border-radius:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+
+
+
